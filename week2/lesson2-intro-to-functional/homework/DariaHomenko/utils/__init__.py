@@ -1,4 +1,3 @@
-from .task_1 import print_list
 from .task_2 import name_uppercase
 from .task_3 import load_func
 from .task_4 import members_with_o
