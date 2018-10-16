@@ -14,7 +14,7 @@ if __name__ == '__main__':
     ]
 
 print('--------------Task 1--------------', end='\n\n')
-print(print_list(members), end='\n\n')
+print(members, end='\n\n')
 print('--------------Task 2--------------', end='\n\n')
 print(name_uppercase(members), end='\n\n')
 print('--------------Task 3--------------', end='\n\n')
@@ -26,3 +26,4 @@ print(sum_max_min_members(members))
 print('--------------Task 6--------------', end='\n\n')
 print(sort_members(members), end='\n\n')
 print('--------------Task 7--------------', end='\n\n')
+print(decimal_to_roman_num(3999), end='\n\n')
