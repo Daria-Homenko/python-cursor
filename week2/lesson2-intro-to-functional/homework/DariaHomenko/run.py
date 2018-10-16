@@ -14,7 +14,7 @@ if __name__ == '__main__':
     ]
 
 print('--------------Task 1--------------', end='\n\n')
-print(print_list(members), end='\n\n')
+print(members, end='\n\n')
 print('--------------Task 2--------------', end='\n\n')
 print(name_uppercase(members), end='\n\n')
 print('--------------Task 3--------------', end='\n\n')
