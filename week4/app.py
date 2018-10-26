@@ -13,14 +13,6 @@ class Developer:
     def __str__(self):
         return '<p>{} {} - {}</p>'.format(self.first_name, self.last_name, self.language)
 
-
-class Dev_group:
-    list_of_members = []
-
-    def __add__(self, member):
-        self.list_of_members.append(member)
-        return self
-
 list_dev = []
 
 list_dev.append(Developer("Jek", "Readle", "Python"))
